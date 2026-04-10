@@ -67,3 +67,5 @@ else if(time >= 19 && time <= 20){
 else{
     console.log("si vaqtni xato kiritdingiz");
 }
+
+for()

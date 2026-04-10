@@ -13,21 +13,22 @@
 
 // ================================================
 
-// for (let raqam = 0; raqam <= 50; raqam+=2){
-//     console.log(raqam)
+// for (let raqam = 0; raqam <= 60; raqam+=2){
+//     console.log(raqam / 2)
 // }
 
 // ==============================================
 
-// for (let raqam = 1; raqam <= 50; raqam+=2){
+// for (let raqam = 1; raqam <= 60; raqam+=2){
 //     console.log(raqam)
 // }
 
 // ===============================================
 
-// let n = 10
-// for (let i = 1; i <= n; i++){
-//     console.log(i * i)
+// let n = 30
+// for(let i = 1; i <= n; i++){
+//     console.log(i * i * i);
+ 
 // }
 
 // =====================================
@@ -100,10 +101,83 @@
 
 // ==================================
 
-let n = 9
-for(let i = 1; i<=n; i++){
-    for(let k = 1; k <= 10; k++){
-        console.log(`${i} x ${k} = ${i * k}`)
-    }
-    console.log("=========================================")
-}
+// let n = 9
+// for(let i = 1; i<=n; i++){
+//     for(let k = 1; k <= 10; k++){
+//         console.log(`${i} x ${k} = ${i * k}`)
+//     }
+//     console.log("=========================================")
+// }
+
+
+
+
+
+// for (let raqam = 5; raqam <=15; raqam ++) {
+//     console.log(raqam)
+// }
+
+// =========================================
+
+// let yigindi = 0
+
+// for (let raqam = 1; raqam <= 100; raqam++) {
+//     yigindi += raqam
+// }
+// console.log("Javob",yigindi)
+
+// ===================================
+
+// let yigindi = 0
+// for(let raqam = 1; raqam <= 100; raqam++){
+//     yigindi += raqam
+// }
+// console.log(yigindi)
+
+// ========================================
+
+// for(let raqam = 0; raqam <= 60; raqam+=2){
+//     console.log(raqam / 2)
+    
+// }
+
+// ==========================================
+
+// for(let raqam = 0; raqam <= 60; raqam+=2){
+//     console.log(raqam)
+// }
+
+// ====================================
+
+// let N = prompt("son kriting")
+
+// for (let i = 1; i <= N; i++) {
+//     console.log(i * i * i)
+// }
+
+// ====================================
+
+// let N = prompt("son kriting");
+
+// for (let i = 1; i <= N; i++) {
+//     if (i % 4 === 0) {
+//         console.log(i)
+//     }
+// }
+
+// ================================
+
+// let n = prompt("Son kriritng")
+// let sum = 0
+
+// for (let i = 1; i <= n; i++) {
+//     sum += i;
+// }
+
+// console.log(sum)
+
+// let yigindi = 0
+// for(let raqam = 1; raqam <= 200; raqam++){
+//     yigindi += raqam
+// }
+// console.log(yigindi);
