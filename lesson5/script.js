@@ -1,4 +1,4 @@
-console.log("GitHub")
+console.log("GitHuQb")
 
 // git init
 
