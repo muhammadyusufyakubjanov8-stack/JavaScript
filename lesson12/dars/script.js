@@ -26,14 +26,12 @@
 // let obj = {
 //     ism: "Muhammad yusuf",
 //     familya: "yakubjanov",
-//     yosh: 100,
+//     yosh: 15,
 // }
 // let newObj = {}
 // for(let key in obj){
 //     if(typeof obj[key] === "number"){
 //         newObj[key] = obj[key] / 2
-//     }else{
-//         newObj[key] = obj[key]
 //     }
 // }
 // console.log(newObj);
@@ -62,24 +60,25 @@
 
 // ====================
 
-let obj = {
-    nomi: "Iphone 17 Pro Max",
-    color: "white",
-    price: 4000,
-}
+// let obj = {
+//     nomi: "Iphone 17 Pro Max",
+//     color: "white",
+//     price: 4000,
+// }
 
-let newObj = {}
-for(let key in obj){
-    if(typeof obj[key] === "number"){
-        newObj[key] = obj[key] / 2
-    }else if(key === "color"){
-        newObj[key] = "Bluviolt"
-    }
-    else if(key === "nomi"){
-         newObj[key] = "phone 18 Pro Max"
-    }
-        else{
-            newObj[key] = obj[key]
-        }
-}
-console.log(newObj);
+// let newObj = {}
+// for(let key in obj){
+//     if(typeof obj[key] === "number"){
+//         newObj[key] = obj[key] / 2
+//     }else if(key === "color"){
+//         newObj[key] = "Bluviolt"
+//     }
+//     else if(key === "nomi"){
+//          newObj[key] = "phone 18 Pro Max"
+//     }
+//         else{
+//             newObj[key] = obj[key]
+//         }
+// }
+// console.log(newObj);
+
